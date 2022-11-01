@@ -17,3 +17,5 @@ Ex: 9 => 00000000000000000000000000001001
     -9 => 11111111111111111111111111110111
     -9 >> 2 => 11111111111111111111111111111101 => -3 ,Since copies of leftmost bits is copied 2 times, the negative sign is maintained.
 
+4. Unsigned right shift operation:
+shift the first operand's bits to right by second operand number of bits. zeros are shifted in from the left, the sign bit is always 0, hence unsgined.
